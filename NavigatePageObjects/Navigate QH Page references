@@ -1,0 +1,18 @@
+Officer Tasks
+
+http://brandy.custman.com.au:7778/navigate/control#TXNVAL%3D1%26TXNID%3D355%26
+
+
+Scheduled Batch
+
+http://brandy.custman.com.au:7778/navigate/control#TXNVAL%3D%26TXNID%3D41581%26
+
+
+Client Search
+
+http://brandy.custman.com.au:7778/navigate/control#TXNVAL%3D%26TXNID%3D367%26
+
+
+Add New Indi
+
+http://brandy.custman.com.au:7778/navigate/control?TXNVAL=&TRANSACTION_MODE=1&TXNID=43361&TABLE_TYPE=LS_CLIENT&POPUPMODE=Y&

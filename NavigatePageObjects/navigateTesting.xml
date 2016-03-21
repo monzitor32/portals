@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Page Object test example">
+<parameter name="appURL" value="http://brandy.custman.com.au:7778/navigate/"/>
+<parameter name="browserType" value="firefox"/>
+  <test name="Navigate QH 3.7 tests">
+    <classes>
+      <class name="com.qoh332.common.tests.BasePageTest"/>
+    </classes>
+  </test>
+</suite>

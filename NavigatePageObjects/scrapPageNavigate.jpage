@@ -1,0 +1,4 @@
+TestBaseSetup ts1 = new TestBaseSetup();
+String me = ts1.getSetupNavigate();
+System.out.println("navigateSetup String = " + me);
+

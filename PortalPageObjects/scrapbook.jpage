@@ -1,0 +1,3 @@
+TestBaseSetup tbsu = new TestBaseSetup();
+tbsu.initializeTestBaseSetup("firefox","http://brandy.custman.com.au:7789/iTrack/");System.out.println("hello");
+																																		http://lh11-21.custman.com.au:9080/home/

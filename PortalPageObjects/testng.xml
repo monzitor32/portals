@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Page Object test Portal2">
+<parameter name="appURL" value="http://brandy.custman.com.au:7789/iTrack/"/>
+<parameter name="browserType" value="firefox"/>
+  <test name="sample test">
+    <classes>
+      <class name="com.qoh332.common.tests.BasePageTestPortal2"/>
+
+    </classes>
+  </test>
+</suite>

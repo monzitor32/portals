@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Page Object test Portal2]">
+  <parameter name="appURL" value="http://brandy.custman.com.au:7789/iTrack/"/>
+  <parameter name="browserType" value="firefox"/>
+  <test name="sample test(failed)">
+    <classes>
+      <class name="com.qoh332.common.tests.BasePageTestPortal2">
+        <methods>
+          <include name="initializeTestBaseSetup"/>
+          <include name="tearDown"/>
+          <include name="verifyHomePage"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.qoh332.common.tests.BasePageTestPortal2 -->
+    </classes>
+  </test> <!-- sample test(failed) -->
+</suite> <!-- Failed suite [Page Object test Portal2] -->

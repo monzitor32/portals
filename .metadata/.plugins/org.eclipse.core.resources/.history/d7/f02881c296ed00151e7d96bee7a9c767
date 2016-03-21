@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Portal Tomcat Tests">
+<parameter name="appURL" value="https://nav-pilot.custman.com.au:8002/home"/>
+<parameter name="browserType" value="firefox"/>
+  <test name="TestBaseSetup">
+    <classes>
+      <class name="com.custman.common.tests.BasePageTest"/>
+    </classes>
+  </test>
+</suite>
+
+<!--
+ Portal tomcat test 2
+
+-->
