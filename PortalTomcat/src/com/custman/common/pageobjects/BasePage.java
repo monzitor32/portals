@@ -115,7 +115,7 @@ public class BasePage {
 	}
 	
 	public boolean verifyBasePageTitle() {
-		String expectedPageTitle="Google";
+		String expectedPageTitle="Welcome to Portal";
 		return getPageTitle().contains(expectedPageTitle);
 	}
 }

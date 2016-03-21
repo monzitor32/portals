@@ -48,7 +48,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Portal_Tomcat_Tests">
-                    <span>C:\portals\PortalTomcat\PortalTomcatTest.xml</span>
+                    <span>C:\portals\PortalTomcat\PortalTomcatTest_2.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -134,14 +134,14 @@
         </div> <!-- panel Portal_Tomcat_Tests -->
         <div panel-name="test-xml-Portal_Tomcat_Tests" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\portals\PortalTomcat\PortalTomcatTest.xml</span>
+            <span class="header-content">C:\portals\PortalTomcat\PortalTomcatTest_2.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Portal Tomcat Tests&quot;&gt;
-  &lt;parameter name=&quot;appURL&quot; value=&quot;http://ws-tomcat-test.custman.com.au:8082/&quot;/&gt;
+  &lt;parameter name=&quot;appURL&quot; value=&quot;https://ws-tomcat-test.custman.com.au:8443/home&quot;/&gt;
   &lt;parameter name=&quot;browserType&quot; value=&quot;firefox&quot;/&gt;
   &lt;test name=&quot;TestBaseSetup&quot;&gt;
     &lt;classes&gt;
@@ -189,12 +189,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'verifyHomePage')
 data.setCell(0, 2, 'com.custman.common.tests.BasePageTest')
-data.setCell(0, 3, 321);
+data.setCell(0, 3, 300);
 window.suiteTableData['Portal_Tomcat_Tests']= { tableData: data, tableDiv: 'times-div-Portal_Tomcat_Tests'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 321 ms</span>
+              <span class="suite-total-time">Total running time: 300 ms</span>
               <div id="times-div-Portal_Tomcat_Tests">
               </div> <!-- times-div-Portal_Tomcat_Tests -->
             </div> <!-- times-div -->
@@ -222,20 +222,20 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">com.custman.common.tests.BasePageTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">initializeTestBaseSetup(firefox, http://ws-tomcat-test.custman.com.au:8082/)</span>
+                <span class="method-name">initializeTestBaseSetup(firefox, https://ws-tomcat-test.custman.com.au:8443/home)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-class before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">17312 ms</span>
+                <span class="method-start">13137 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">verifyHomePage</span>
-                <span class="method-start">17321 ms</span>
+                <span class="method-start">13144 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">17644 ms</span>
+                <span class="method-start">13447 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

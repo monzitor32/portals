@@ -43,16 +43,16 @@ public class BasePageTest extends TestBaseSetup{
 		/////BasicConfigurator.configure();
 		Log.startTestCase("Starting Portal test run");
 		Log.info("Staring verify HomePage");
-		System.out.println("Home page test...");
+		Log.info("Home page test...");
 		BasePage basePage = new BasePage(driver);
 		
-		System.out.println("Start Base Test .....");
-		System.out.println("basePage verifyPageHeadingText result = " + basePage.verifyPageHeadingText());
-		System.out.println("basePage verifyWelcomeText result = " + basePage.verifyWelcomeText());
-		System.out.println("End Base Test .....");
+		Log.info("Start Base Test .....");
+		Log.info("basePage verifyPageHeadingText result = " + basePage.verifyPageHeadingText());
+		Log.info("basePage verifyWelcomeText result = " + basePage.verifyWelcomeText());
+		Log.info("End Base Test .....");
 		Log.endTestCase("End of Test RUN");
 		
-		//Assert.assertTrue(basePage.verifyBasePageTitle(), "Home page title doesn't match");
+		Assert.assertTrue(basePage.verifyBasePageTitle(), "Home page title doesn't match");
 	}
 
 }

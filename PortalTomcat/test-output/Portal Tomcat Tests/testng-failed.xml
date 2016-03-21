@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Portal Tomcat Tests]">
-  <parameter name="appURL" value="http://ws-tomcat-test.custman.com.au:8082/"/>
+  <parameter name="appURL" value="https://ws-tomcat-test.custman.com.au:8443/home"/>
   <parameter name="browserType" value="firefox"/>
   <test name="TestBaseSetup(failed)">
     <classes>
@@ -9,6 +9,8 @@
         <methods>
           <include name="initializeTestBaseSetup"/>
           <include name="verifyHomePage"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
         </methods>
       </class> <!-- com.custman.common.tests.BasePageTest -->
     </classes>
